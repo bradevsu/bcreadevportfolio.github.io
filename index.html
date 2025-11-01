@@ -1,0 +1,386 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Devicon for coding tools -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<!-- Font Awesome for MS Office and others -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://kit.fontawesome.com/a2e0e6ad15.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/svg+xml" href="images/logo.png" />
+
+    <title>BCreaDev-Portfolio</title>
+    </head>
+    <body>
+    <header>
+            <div class="nav">
+            <div class="brand">
+                <svg class="logo-pac" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="55%" text-anchor="middle" fill="var(--neon-yellow)" font-size="20" font-family="Poppins, sans-serif" font-weight="700">
+    BCreaDev
+  </text>
+</svg>
+
+                <div>
+                <h1 id="site-name">Your Name</h1>
+                <p id="site-niche">Creative Designer • Web Developer</p>
+                </div>
+            </div>
+        <nav>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#message">Message</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="home" class="hero">
+        <div class="hero-card hero-left">
+            <h2 id="hname">Your Name</h2>
+            <div class="niche" id="hniche">Creative Designer • Web Developer</div>
+            <p style="margin-top:14px;color:var(--muted)">Hello! I'm a creative designer who loves retro aesthetics and modern UX. I design visuals and build simple web experiences. I combine visual design tools like Canva and Photoshop with front-end techniques to craft responsive, accessible websites.    </p>
+
+        </div>
+<div class="hire-box">
+  <span class="typed-text"></span><span class="cursor">|</span>
+</div>
+
+<style>
+/* Container for alignment */
+.hire-box {
+  display: inline-block;
+  background: rgba(0, 255, 255, 0.1);
+  border: 2px solid #00ffff;
+  border-radius: 15px;
+  padding: 12px 25px;
+  box-shadow: 0 0 15px #00ffff, inset 0 0 10px #00ffff;
+  font-family: 'Poppins', sans-serif;
+  color: #00ffff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  animation: glowBox 2s infinite alternate;
+  text-align: center;
+}
+
+/* Neon glow breathing */
+@keyframes glowBox {
+  from { box-shadow: 0 0 15px #00ffff, inset 0 0 10px #00ffff; }
+  to { box-shadow: 0 0 30px #00ffff, inset 0 0 20px #00ffff; }
+}
+
+/* Typing cursor blink */
+.cursor {
+  display: inline-block;
+  width: 2px;
+  background-color: #00ffff;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const text = "💼 HIRE ME PLEASE!";
+  const typedText = document.querySelector(".typed-text");
+  let index = 0;
+
+  function type() {
+    if (index < text.length) {
+      typedText.textContent += text.charAt(index);
+      index++;
+      setTimeout(type, 180); // typing speed (slow and smooth)
+    }
+  }
+  type();
+});
+</script>
+
+
+        </section>
+
+        <section class="two-col" id="about">
+        <div class="card about">
+            <h4 style="margin-top:14px">Tech Skills</h4>
+
+        
+            <h5 style="margin-top:10px;color:var(--neon-yellow)">Development</h5>
+            <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;align-items:center;font-size:38px;color:var(--neon-yellow)">
+            <i class="devicon-php-plain colored" title="PHP"></i>
+            <i class="devicon-html5-plain colored" title="HTML5"></i>
+            <i class="devicon-css3-plain colored" title="CSS3"></i>
+            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+            </div>
+
+        
+            <h5 style="margin-top:20px;color:var(--neon-yellow)">Graphics</h5>
+            <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;align-items:center;font-size:38px;color:var(--neon-yellow)">
+            <i class="devicon-photoshop-plain colored" title="Photoshop"></i>
+            <i class="devicon-canva-original colored" title="Canva"></i>
+            </div>
+
+            <h5 style="margin-top:20px;color:var(--neon-yellow)">Video Editing</h5>
+            <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;align-items:center;font-size:38px;color:var(--neon-yellow)">
+            
+
+            <svg width="38" height="38" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" title="CapCut">
+                <rect width="100" height="100" rx="20" fill="#000"/>
+                <path d="M25 30 L75 70 M25 70 L75 30" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                <text x="50%" y="90%" text-anchor="middle" font-size="12" fill="white" font-family="sans-serif">CC</text>
+            </svg>
+            </div>
+
+
+            <h5 style="margin-top:20px;color:var(--neon-yellow)">Administrative</h5>
+            <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;align-items:center;font-size:38px;color:var(--neon-yellow)">
+            <i class="fa-solid fa-file-word" title="MS Word" style="color:#2b579a"></i>
+            <i class="fa-solid fa-file-excel" title="MS Excel" style="color:#217346"></i>
+            <i class="fa-solid fa-file-powerpoint" title="MS PowerPoint" style="color:#d24726"></i>
+            </div>
+
+        </div>
+
+       <aside class="card" style="padding:20px;background:rgba(255,255,255,0.05);border-radius:16px;">
+  <div style="display:flex;gap:10px;margin-bottom:14px;">
+    <button id="contactBtn" onclick="showTab('contact')" style="flex:1;padding:10px;border:none;border-radius:10px;background:var(--glass);color:#fff;font-size:15px;cursor:pointer;transition:0.3s;">Contact</button>
+    <button id="eduBtn" onclick="showTab('edu')" style="flex:1;padding:10px;border:none;border-radius:10px;background:transparent;color:#aaa;font-size:15px;cursor:pointer;transition:0.3s;">Education & Experience</button>
+  </div>
+
+  <!-- Contact Tab -->
+  <div id="contact" style="display:block;">
+    <h4 style="font-size:18px;color:#fff;">Contact</h4>
+    <p style="color:var(--muted);font-size:14px;">Please use my email to contact me.</p>
+    <div style="margin-top:12px;display:flex;flex-direction:column;gap:10px;">
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-solid fa-envelope fa-bounce" style="color:#00e6ff;"></i>
+        Email: <span style="color:var(--muted)">malate33333@gmail.com</span>
+      </div>
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-brands fa-facebook fa-bounce" style="color:#1877f2;"></i>
+        Facebook: <span style="color:var(--muted)">B-KI Solutions</span>
+      </div>
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-solid fa-location-dot fa-beat" style="color:#ffea00;"></i>
+        Location: <span style="color:var(--muted)">Leyte / Philippines</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education & Experience Tab -->
+  <div id="edu" style="display:none;">
+    <h4 style="font-size:18px;color:#fff;">Education & Experience</h4>
+    <div style="margin-top:12px;display:flex;flex-direction:column;gap:10px;">
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-solid fa-graduation-cap fa-bounce" style="color:#ff66cc;"></i>
+        <b>Education:</b> BSIT Graduate - EVSU - <em style="color:#00e6ff;">Cum Laude</em>
+      </div>
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-solid fa-briefcase fa-bounce" style="color:#ffa500;"></i>
+        <b>OJT:</b> DepEd Leyte Division Office - 2025
+      </div>
+      <div style="padding:10px 14px;border-radius:10px;background:var(--glass);font-size:15px;color:#fff;display:flex;align-items:center;gap:10px;">
+        <i class="fa-solid fa-building fa-beat-fade" style="color:#00ffcc;"></i>
+        <b>Current Work:</b> Ocean Wave Communication Philippine Corp - 2025
+      </div>
+    </div>
+  </div>
+</aside>
+
+        </section>
+
+      <section id="projects" style="margin-top:18px">
+  <h3 style="text-align:center;margin-bottom:20px;color:var(--neon-yellow)">Projects</h3>
+  
+  <div class="projects-grid" style="
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+  ">
+    
+    <!-- Project 1 -->
+    <article class="proj" style="
+        background:rgba(255,255,255,0.05);
+        border:1px solid rgba(255,255,255,0.1);
+        border-radius:16px;
+        overflow:hidden;
+        backdrop-filter:blur(6px);
+        box-shadow:0 0 10px rgba(0,255,255,0.2);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+    " onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 0 20px var(--neon-yellow)'" 
+       onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 0 10px rgba(0,255,255,0.2)'">
+      
+      <div class="thumb" data-type="image" data-src="brand1" style="height:180px;overflow:hidden;">
+        
+          <rect width="100%" height="100%" fill="#0b0b0b"/>
+          <g>
+            <rect x="40" y="40" width="160" height="120" rx="10" fill="#111" stroke="#222"/>
+            <text x="260" y="200" fill="#8da" font-size="36">Poster Branding 1</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="meta" style="padding:14px;text-align:center">
+        <h4 style="margin-bottom:8px;color:#fff">Branding 1</h4>
+        <button class="btn view-btn" aria-label="View full" title="View full" style="
+            background:var(--glass);
+            border:none;
+            padding:8px 14px;
+            border-radius:8px;
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            cursor:pointer;
+            transition:background 0.3s;
+        " onmouseover="this.style.background='var(--neon-yellow)';this.style.color='#000'" onmouseout="this.style.background='var(--glass)';this.style.color='var(--muted)'">
+          <svg class="eye" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18">
+            <ellipse cx="12" cy="12" rx="9" ry="5" stroke="currentColor" stroke-width="1.2"/>
+            <circle class="iris" cx="12" cy="12" r="2.6" fill="currentColor"/>
+          </svg>
+          <span style="font-size:13px;color:var(--muted)">View</span>
+        </button>
+      </div>
+    </article>
+
+
+    <!-- Project 2 -->
+    <article class="proj" style="
+        background:rgba(255,255,255,0.05);
+        border:1px solid rgba(255,255,255,0.1);
+        border-radius:16px;
+        overflow:hidden;
+        backdrop-filter:blur(6px);
+        box-shadow:0 0 10px rgba(0,255,255,0.2);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+    " onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 0 20px var(--neon-yellow)'" 
+       onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 0 10px rgba(0,255,255,0.2)'">
+      
+      <div class="thumb" data-type="image" data-src="brand2" style="height:180px;overflow:hidden;">
+        
+          <rect width="100%" height="100%" fill="#060606"/>
+          <g>
+            <circle cx="120" cy="120" r="60" fill="#ffea00"/>
+            <text x="260" y="200" fill="#ddd" font-size="36">Poster Branding 2</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="meta" style="padding:14px;text-align:center">
+        <h4 style="margin-bottom:8px;color:#fff">Branding 2</h4>
+        <button class="btn view-btn" aria-label="View full" title="View full" style="
+            background:var(--glass);
+            border:none;
+            padding:8px 14px;
+            border-radius:8px;
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            cursor:pointer;
+            transition:background 0.3s;
+        " onmouseover="this.style.background='var(--neon-yellow)';this.style.color='#000'" onmouseout="this.style.background='var(--glass)';this.style.color='var(--muted)'">
+          <svg class="eye" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18">
+            <ellipse cx="12" cy="12" rx="9" ry="5" stroke="currentColor" stroke-width="1.2"/>
+            <circle class="iris" cx="12" cy="12" r="2.6" fill="currentColor"/>
+          </svg>
+          <span style="font-size:13px;color:var(--muted)">View</span>
+        </button>
+      </div>
+    </article>
+
+
+    <!-- Project 3 -->
+    <article class="proj" style="
+        background:rgba(255,255,255,0.05);
+        border:1px solid rgba(255,255,255,0.1);
+        border-radius:16px;
+        overflow:hidden;
+        backdrop-filter:blur(6px);
+        box-shadow:0 0 10px rgba(0,255,255,0.2);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+    " onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 0 20px var(--neon-yellow)'" 
+       onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 0 10px rgba(0,255,255,0.2)'">
+      
+      <div class="thumb" data-type="video" data-src="sample-video" style="height:180px;overflow:hidden;">
+        <svg width="100%" height="100%" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100%" height="100%" fill="#050505"/>
+          <polygon points="260,160 380,200 260,240" fill="#00e6ff" opacity="0.95"/>
+        </svg>
+      </div>
+
+      <div class="meta" style="padding:14px;text-align:center">
+        <h4 style="margin-bottom:8px;color:#fff">Branding Video</h4>
+        <button class="btn view-btn" aria-label="View full video" title="View full video" style="
+            background:var(--glass);
+            border:none;
+            padding:8px 14px;
+            border-radius:8px;
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            cursor:pointer;
+            transition:background 0.3s;
+        " onmouseover="this.style.background='var(--neon-yellow)';this.style.color='#000'" onmouseout="this.style.background='var(--glass)';this.style.color='var(--muted)'">
+          <svg class="eye" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18">
+            <ellipse cx="12" cy="12" rx="9" ry="5" stroke="currentColor" stroke-width="1.2"/>
+            <circle class="iris" cx="12" cy="12" r="2.6" fill="currentColor"/>
+          </svg>
+          <span style="font-size:13px;color:var(--muted)">View</span>
+        </button>
+      </div>
+    </article>
+
+  </div>
+</section>
+        <section id="message" style="margin-top:22px">
+        <h3>Message</h3>
+        <div class="card" style="margin-top:8px">
+            <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <textarea id="messageBox" rows="5" placeholder="Your message" required></textarea>
+            <button class="send" type="submit">Send Message</button>
+            </form>
+        </div>
+        </section>
+
+        <footer>
+        <div style="max-width:var(--max-width);margin:0 auto">2025 Bradley Mark Gerarcas - BCreaDev | All Rights Reserved
+</div>
+        </footer>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal-inner">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700">Project</div>
+            <button id="modalClose" class="btn" aria-label="Close">Close</button>
+        </div>
+        <div class="modal-media" id="modalMedia"></div>
+        <div style="margin-top:12px;color:var(--muted)" id="modalDesc">Project description goes here.</div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    </body>
+    </html>
