@@ -19,7 +19,7 @@
         img.alt = 'Project full';
         img.src = `images/${id}.jpg`;
         modalMedia.appendChild(img);
-        modalDesc.textContent = 'This is a full view of the project. Replace this with a real image and a short description.';
+        modalDesc.textContent = 'Branding Poster';
       } else if(type === 'video'){
         const video = document.createElement('video');
         video.controls = true;
@@ -85,3 +85,4 @@ document.onkeydown = function(e) {
     return false;
   }
 }
+
